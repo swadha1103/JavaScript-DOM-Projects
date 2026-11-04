@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="bg-warning p-3 fg-black" align="center">Counter App using JavaScript DOM</nav>
+    <section class="fluid-container">
+        <div class="row">
+            <div class="card col-4 text-center m-auto mt-3 p-2">
+                <h3 class="bg-info card-title p-2">Counter App</h3>
+                <div>
+                    <h1 id="heading">0</h1>
+                    <button class="btn bg-success" onclick="inc()">inc</button>
+                    <button class="btn bg-danger" onclick="dec()">dec</button>
+                    <button class="btn bg-warning" onclick="reset()">reset</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        let h = document.getElementById("heading")
+        let count=0
+        function inc(){
+           h.innerText= ++count
+        }
+        function dec(){
+            if(count > 0){
+                h.innerText= --count
+            }
+        }
+        function reset(){
+            h.innerText = 0
+            count=0
+        }
+    </script>
+</body>
+</html>
