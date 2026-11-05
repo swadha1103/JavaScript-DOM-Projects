@@ -1,29 +1,30 @@
 # JavaScript DOM Projects
 
-A collection of practical web development projects built using JavaScript, focusing on DOM manipulation, event handling, and interactive user interfaces.
-
-This repository showcases hands-on implementations of JavaScript concepts through functional web applications.
+A collection of practical JavaScript projects focused on DOM manipulation, event handling, and interactive web development.
 
 ## Projects
 
-| #  | Project     | Description                                                                         | Technologies                 |
-| -- | ----------- | ----------------------------------------------------------------------------------- | ---------------------------- |
-| 01 | Counter App | Interactive counter application with increment, decrement, and reset functionality. | HTML5, Bootstrap, JavaScript |
+| # | Project | Description | Technologies |
+|---|---|---|---|
+| 1 | Counter App | Interactive counter application with increment, decrement, and reset functionality. | HTML5, Bootstrap, JavaScript |
+| 2 | Password Show/Hide | Password visibility toggle that allows users to show or hide their password using an eye icon. | HTML5, CSS3, JavaScript, Font Awesome |
 
 ## Technical Concepts
 
-* DOM Manipulation
-* Event Handling
-* JavaScript Functions
-* Conditional Statements
-* Dynamic Content Updates
-* Element Selection and Manipulation
+- DOM Manipulation
+- Event Handling
+- JavaScript Functions
+- Conditional Statements
+- Dynamic HTML Element Updates
+- CSS Styling and Positioning
 
 ## Technology Stack
 
-* **Frontend:** HTML5, CSS3, Bootstrap
-* **Programming Language:** JavaScript (ES6+)
-* **Version Control:** Git & GitHub
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+- Font Awesome
 
 ## Repository Structure
 
@@ -31,11 +32,17 @@ This repository showcases hands-on implementations of JavaScript concepts throug
 JavaScript-DOM-Projects/
 │
 ├── Counter-App/
-│   └── index.html
+│   ├── index.html
+│   └── README.md
+│
+├── Password-Show-Hide/
+│   ├── index.html
+│   ├── style.css
+│   └── README.md
 │
 └── README.md
 ```
 
 ## Objective
 
-To strengthen JavaScript fundamentals through practical implementation, explore DOM-based web development, and progressively build interactive applications.
+To strengthen JavaScript fundamentals through hands-on projects and practical implementation of DOM manipulation and interactive web functionalities.
