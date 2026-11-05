@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+<body>
+
+    <h2>Password Visibility Toggle</h2>
+    <p>Click the eye icon to show or hide your password.</p>
+    
+    <div class="pass-box">
+    <input type="password" id="inp1">
+    <i class="fa-regular fa-eye" onclick="fun()" id="eye"></i>
+    </div>
+
+    <script>
+        let inp1 = document.getElementById("inp1")
+        let eye=document.getElementById("eye")
+        
+    function fun(){
+        if (inp1.type=='password')
+        {
+            inp1.type='text'
+            eye.className='fa-solid fa-eye-slash'
+        }
+        else{
+            inp1.type='password'
+            eye.className='fa-regular fa-eye'
+        }
+    }
+    
+    </script>
+</body>
+</html>
